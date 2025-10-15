@@ -3,7 +3,7 @@ name: Generate GitHub Metrics
 on:
   schedule:
     - cron: "0 6 * * *" # Runs once daily at 6 AM UTC
-  workflow_dispatch:     # Allows manual runs
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,9 +12,9 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          github_token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}   # <-- correct input name
           user: RlleyC
-          filename: github-metrics.svg     # ensures output goes to repo root
+          filename: github-metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago
