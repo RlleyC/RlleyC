@@ -2,21 +2,38 @@ name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 6 * * *" # Runs once daily at 6 AM UTC
-  workflow_dispatch:
+    - cron: "0 6 * * *" # Runs daily at 6 AM UTC
+  workflow_dispatch:     # Allows manual runs
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout the repo (required to write files)
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Install dependencies (optional but recommended)
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
+
+      # Step 3: Generate GitHub metrics
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}   # <-- correct input name
+          token: ${{ secrets.METRICS_TOKEN }}   # <- must be a personal access token
           user: RlleyC
           filename: github-metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base:
+            - header
+            - activity
+            - community
+            - repositories
+            - metadata
           config_timezone: America/Chicago
           plugin_isocalendar: yes
           plugin_languages: yes
@@ -25,3 +42,14 @@ jobs:
           plugin_achievements: yes
           plugin_stars: yes
           plugin_followup: yes
+
+      # Step 4: Commit and push changes back to repo
+      - name: Commit and push metrics
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          git commit -m "Update GitHub metrics [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
