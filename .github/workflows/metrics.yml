@@ -16,12 +16,7 @@ jobs:
           user: RlleyC
           filename: github-metrics.svg     # ensures output goes to repo root
           template: classic
-          base:
-            - header
-            - activity
-            - community
-            - repositories
-            - metadata
+          base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago
           plugin_isocalendar: yes
           plugin_languages: yes
