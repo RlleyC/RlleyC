@@ -14,6 +14,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: RlleyC
+          filename: github-metrics.svg     # <- ensures output goes to repo root
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago
