@@ -1,3 +1,4 @@
+![Profile Views](https://komarev.com/ghpvc/?username=RlleyC&label=Profile%20Views&color=9146FF&style=flat-square)
 <!--
 Profile statistics
 -->
@@ -12,7 +13,7 @@ Additional widgets
 
 ![Activity Graph (Dark Mode)](https://github-readme-activity-graph.vercel.app/graph?username=RlleyC&bg_color=0e0e10&color=ffffff&line=9146FF&point=9146FF&area=true&hide_border=true)
 
-![Profile Views](https://komarev.com/ghpvc/?username=RlleyC&label=Profile%20Views&color=9146FF&style=flat-square)
+
 
 ![GitHub Trophy (Dark Mode)](https://github-profile-trophy.vercel.app/?username=RlleyC&theme=onedark&no-frame=true&row=1&column=6)
 
