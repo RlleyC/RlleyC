@@ -17,4 +17,5 @@ Additional widgets
 
 ![GitHub Trophy (Dark Mode)](https://github-profile-trophy.vercel.app/?username=RlleyC&theme=onedark&no-frame=true&row=1&column=6)
 
-![Metrics](https://raw.githubusercontent.com/RlleyC/RlleyC/main/github-metrics.svg)
+<!--![Metrics](https://raw.githubusercontent.com/RlleyC/RlleyC/main/github-metrics.svg) 
+-->
