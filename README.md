@@ -15,13 +15,6 @@ Additional widgets
 
 
 
-![GitHub Trophy (Dark Mode)](https://github-profile-trophy.vercel.app/?username=RlleyC&theme=onedark&no-frame=true&row=1&column=6)
+<!-- ![GitHub Trophy (Dark Mode)](https://github-profile-trophy.vercel.app/?username=RlleyC&theme=onedark&no-frame=true&row=1&column=6)
 
-[Metrics](https://raw.githubusercontent.com/RlleyC/RlleyC/main/github-metrics.svg)
-
----
-
-Thanks for scrolling all the way down! 😄
-
-🕹️ Game on. Code on.  
-✨ Stay curious, keep creating!
+[Metrics](https://raw.githubusercontent.com/RlleyC/RlleyC/main/github-metrics.svg) -->
