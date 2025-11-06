@@ -21,7 +21,7 @@ Additional widgets
 
 ---
 
-### 💜 Support My Work
+### 💜 Support My Work (BTC Network)
 
 <a href="bitcoin:3AE7ho4HvwwxKyTeU3yx3g7JCb6zjiG88q" target="_blank" style="text-decoration:none;">
   <img src="https://img.shields.io/badge/Donate%20BTC-%239146FF.svg?style=for-the-badge&logo=bitcoin&logoColor=white&labelColor=0e0e10" alt="Donate BTC Button">
