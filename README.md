@@ -27,12 +27,6 @@ Additional widgets
   <img src="https://img.shields.io/badge/Donate%20BTC-%239146FF.svg?style=for-the-badge&logo=bitcoin&logoColor=white&labelColor=0e0e10" alt="Donate BTC Button">
 </a>
 
-<br><br>
-
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=bitcoin:3AE7ho4HvwwxKyTeU3yx3g7JCb6zjiG88q" alt="BTC QR Code" width="180" height="180" style="border-radius:10px;">
-
-<br>
-
 <code>BTC Wallet:</code> <strong>3AE7ho4HvwwxKyTeU3yx3g7JCb6zjiG88q</strong>
 
 ---
