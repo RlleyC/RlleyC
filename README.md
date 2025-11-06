@@ -27,6 +27,8 @@ Additional widgets
   <img src="https://img.shields.io/badge/Donate%20BTC-%239146FF.svg?style=for-the-badge&logo=bitcoin&logoColor=white&labelColor=0e0e10" alt="Donate BTC Button">
 </a>
 
+<img width="160" height="160" alt="image" src="https://github.com/user-attachments/assets/331e0872-d275-4938-b9d4-479d34dd0739" />
+
 <code>BTC Wallet:</code> <strong>3AE7ho4HvwwxKyTeU3yx3g7JCb6zjiG88q</strong>
 
 ---
