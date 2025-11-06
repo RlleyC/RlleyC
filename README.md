@@ -18,3 +18,10 @@ Additional widgets
 <!-- ![GitHub Trophy (Dark Mode)](https://github-profile-trophy.vercel.app/?username=RlleyC&theme=onedark&no-frame=true&row=1&column=6)
 
 [Metrics](https://raw.githubusercontent.com/RlleyC/RlleyC/main/github-metrics.svg) -->
+
+### 💜 Support My Work
+If you’d like to support my projects:
+  
+[![Donate BTC](https://img.shields.io/badge/Donate-Bitcoin-9146FF?style=for-the-badge&logo=bitcoin&logoColor=white)](bitcoin:3AE7ho4HvwwxKyTeU3yx3g7JCb6zjiG88q)
+  
+`BTC Wallet:` **3AE7ho4HvwwxKyTeU3yx3g7JCb6zjiG88q**
